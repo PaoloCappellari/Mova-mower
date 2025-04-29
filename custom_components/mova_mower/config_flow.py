@@ -24,7 +24,7 @@ from homeassistant.config_entries import (
     OptionsFlow,
 )
 
-from .dreame import DreameMowerProtocol, MAP_COLOR_SCHEME_LIST, MAP_ICON_SET_LIST
+from .mova import DreameMowerProtocol, MAP_COLOR_SCHEME_LIST, MAP_ICON_SET_LIST
 
 from .const import (
     DOMAIN,
@@ -52,7 +52,7 @@ DREAME_MODELS = [
     "mova.vrmower.v1"
 ]
 
-DREAMEHOME: Final = "Dreamehome Account"
+DREAMEHOME: Final = "Movahome Account"
 LOCAL: Final = "Manual Connection (Without map)"
 
 

@@ -395,7 +395,7 @@ https://eu.iot.mova-tech.com:13267/dreame-user-iot/iotfile/getDownloadUrl
 {
     "did": "###DeviceID###",
     "filename": "ali_dreame/2024/07/11/###DREAMEUSER###/###DeviceID###_130705104.bin", <- OBJNAME von "fetch 3d-map"
-    "model": "dreame.mower.p2255",
+    "model": "mova.vrmower.v1",
     "uid": "###DREAMEUSER###"
 } ---> download file from answer:[
     {

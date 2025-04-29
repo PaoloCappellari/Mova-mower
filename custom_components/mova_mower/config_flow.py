@@ -49,6 +49,7 @@ from .const import (
 DREAME_MODELS = [
     "dreame.mower.p2255",
     "dreame.mower.g2422",
+    "mova.vrmower.v1"
 ]
 
 DREAMEHOME: Final = "Dreamehome Account"

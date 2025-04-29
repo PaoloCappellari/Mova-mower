@@ -1,4 +1,4 @@
-import logging
+iot.mova-tech.comimport logging
 import random
 import hashlib
 import json
@@ -631,7 +631,7 @@ class DreameMowerMiHomeCloudProtocol:
         self._uid = None
         self._did = None
         self.two_factor_url = None
-        self._useragent = f"Android-7.1.1-1.0.0-ONEPLUS A3010-136-{DreameMowerMiHomeCloudProtocol.get_random_agent_id()} APP/xiaomi.smarthome APPV/62830"
+        self._useragent = f"Android-7.1.1-1.0.0-ONEPLUS A3010-136-{DreameMowerMiHomeCloudProtocol.get_random_agent_id()} APP/mova.smarthome APPV/62830"
         self._locale = locale.getdefaultlocale()[0]
         self._v3 = False
 
@@ -1025,7 +1025,7 @@ class DreameMowerMiHomeCloudProtocol:
         return f"https://{('' if self._country == 'cn' else (self._country + '.'))}api.io.mi.com/app"
 
     def get_dreame_iot_api_url(self) -> str:
-        return f"https://{('' if self._country == 'cn' else (self._country + '.'))}iot.dreame.tech:13267/dreame-iot-com-10000"
+        return f"https://{('' if self._country == 'cn' else (self._country + '.'))}iot.mova-tech.com:13267/dreame-iot-com-10000"
 
     def signed_nonce(self, nonce: str) -> str:
         hash_object = hashlib.sha256(base64.b64decode(self._ssecurity) + base64.b64decode(nonce))

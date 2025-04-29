@@ -1,8 +1,8 @@
 Get History:
 
-POST https://eu.iot.dreame.tech:13267/dreame-user-iot/iotstatus/history HTTP/2.0
+POST https://eu.iot.mova-tech.com:13267/dreame-user-iot/iotstatus/history HTTP/2.0
 {
-    "did": "###DeviceID###",
+    "did": "###DeviceID###",iot.mova-tech.com
     "eiid": "1",
     "from": 1705148811,
     "key": "4.1",
@@ -391,7 +391,7 @@ fetch 3d-map:
 }
 
 get url:
-https://eu.iot.dreame.tech:13267/dreame-user-iot/iotfile/getDownloadUrl
+https://eu.iot.mova-tech.com:13267/dreame-user-iot/iotfile/getDownloadUrl
 {
     "did": "###DeviceID###",
     "filename": "ali_dreame/2024/07/11/###DREAMEUSER###/###DeviceID###_130705104.bin", <- OBJNAME von "fetch 3d-map"
@@ -400,7 +400,7 @@ https://eu.iot.dreame.tech:13267/dreame-user-iot/iotfile/getDownloadUrl
 } ---> download file from answer:[
     {
         "code": 0,
-        "data": "https://dreame-eu.oss-eu-central-1.aliyuncs.com/iot/mapbin/000000/ali_dreame/2024/07/11/###DREAMEUSER###/###DeviceID###_130705104.bin?Expires=1720705028&OSSAccessKeyId=LTAI5t96WkBXXNzQrX4HtQti&Signature=5Ijj94w9aMi4PHaEWmB1BsOAs1g%3D",
+        "data": "https://dreame-eu.oss-eu-central-1.aliyuncs.com/iot/mapbin/000002/ali_dreame/2024/07/11/###DREAMEUSER###/###DeviceID###_130705104.bin?Expires=1720705028&OSSAccessKeyId=LTAI5t96WkBXXNzQrX4HtQti&Signature=5Ijj94w9aMi4PHaEWmB1BsOAs1g%3D",
         "expires_time": "1720705028",
         "msg": "操作成功",
         "success": true
@@ -435,7 +435,7 @@ Rain protection:
 }
 
 
-POST https://eu.iot.dreame.tech:13267/dreame-user-iot/iotuserdata/getDeviceData HTTP/2.0
+POST https://eu.iot.mova-tech.com:13267/dreame-user-iot/iotuserdata/getDeviceData HTTP/2.0
 {
     "did": "###DeviceID###",
     "keys": [
@@ -493,7 +493,7 @@ dock-position:
     "success": true
 }
 
-RS_INSTALD? (https://eu.iot.dreame.tech:13267/dreame-user-iot/iotuserdata/getDeviceData)
+RS_INSTALD? (https://eu.iot.mova-tech.com:13267/dreame-user-iot/iotuserdata/getDeviceData)
 {
     "did": "###DeviceID###",
     "keys": [
@@ -581,7 +581,7 @@ GetProp:
 }
 
 
-GetAllKeys:https://eu.iot.dreame.tech:13267/dreame-user-iot/iotuserdata/getDeviceData
+GetAllKeys:https://eu.iot.mova-tech.com:13267/dreame-user-iot/iotuserdata/getDeviceData
 {
     "did": "###DeviceID###",
     "keys": []

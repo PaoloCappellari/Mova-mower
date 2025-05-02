@@ -1,7 +1,7 @@
 mower_clean_segment:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     segments:

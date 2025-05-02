@@ -19,8 +19,8 @@ from homeassistant.core import HomeAssistant, callback
 from homeassistant.helpers.dispatcher import async_dispatcher_connect
 from homeassistant.helpers.entity import generate_entity_id
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
-from .dreame import DreameMowerDevice, DreameMowerProperty
-from .dreame.resources import (
+from .mova import DreameMowerDevice, DreameMowerProperty
+from .mova.resources import (
     CONSUMABLE_IMAGE,
 )
 from .const import (

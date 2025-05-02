@@ -20,7 +20,7 @@ mower_clean_segment:
 mower_clean_zone:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     zone:
@@ -39,7 +39,7 @@ mower_clean_zone:
 mower_clean_spot:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     points:
@@ -58,7 +58,7 @@ mower_clean_spot:
 mower_goto:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     x:
@@ -77,7 +77,7 @@ mower_goto:
 mower_follow_path:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     points:
@@ -89,7 +89,7 @@ mower_follow_path:
 mower_remote_control_move_step:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     rotation:
@@ -112,7 +112,7 @@ mower_remote_control_move_step:
 mower_install_voice_pack:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     lang_id:
@@ -141,13 +141,13 @@ mower_install_voice_pack:
 mower_request_map:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
 
 mower_select_map:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     map_id:
@@ -160,7 +160,7 @@ mower_select_map:
 mower_delete_map:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     map_id:
@@ -173,19 +173,19 @@ mower_delete_map:
 mower_save_temporary_map:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
 
 mower_discard_temporary_map:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
 
 mower_replace_temporary_map:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     map_id:
@@ -198,7 +198,7 @@ mower_replace_temporary_map:
 mower_rename_map:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     map_id:
@@ -216,7 +216,7 @@ mower_rename_map:
 mower_restore_map:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     recovery_map_index:
@@ -236,7 +236,7 @@ mower_restore_map:
 mower_restore_map_from_file:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     file_url:
@@ -255,7 +255,7 @@ mower_restore_map_from_file:
 mower_backup_map:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     map_id:
@@ -268,7 +268,7 @@ mower_backup_map:
 mower_merge_segments:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     map_id:
@@ -286,7 +286,7 @@ mower_merge_segments:
 mower_split_segments:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     map_id:
@@ -312,7 +312,7 @@ mower_split_segments:
 mower_rename_segment:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     segment_id:
@@ -332,7 +332,7 @@ mower_rename_segment:
 mower_set_cleaning_sequence:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     cleaning_sequence:
@@ -344,7 +344,7 @@ mower_set_cleaning_sequence:
 mower_set_custom_cleaning:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     segment_id:
@@ -366,7 +366,7 @@ mower_set_custom_cleaning:
 mower_set_restricted_zone:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     walls:
@@ -388,7 +388,7 @@ mower_set_restricted_zone:
 mower_reset_consumable:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     consumable:
@@ -408,7 +408,7 @@ mower_reset_consumable:
 mower_rename_shortcut:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     shortcut_id:
@@ -421,7 +421,7 @@ mower_rename_shortcut:
 mower_set_pathway:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     pathways:
@@ -433,7 +433,7 @@ mower_set_pathway:
 mower_set_predefined_points:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     points:
@@ -445,7 +445,7 @@ mower_set_predefined_points:
 mower_set_obstacle_ignore:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     x:
@@ -469,7 +469,7 @@ mower_set_obstacle_ignore:
 mower_set_router_position:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: lawn_mower
   fields:
     x:
@@ -488,7 +488,7 @@ mower_set_router_position:
 select_select_previous:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: select
   fields:
     cycle:
@@ -499,19 +499,19 @@ select_select_previous:
 select_select_first:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: select
 
 select_select_last:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: select
 
 select_select_next:
   target:
     entity:
-      integration: dreame_mower
+      integration: mova_mower
       domain: select
   fields:
     cycle:

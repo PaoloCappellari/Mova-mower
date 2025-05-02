@@ -118,8 +118,8 @@ class DreameMowerOptionsFlowHandler(OptionsFlow):
         )
 
 
-class DreameMowerFlowHandler(ConfigFlow, domain=DOMAIN):
-    """Handle config flow for an Dreame Mower device."""
+class MovaMowerFlowHandler(ConfigFlow, domain=DOMAIN):
+    """Handle config flow for an Mova Mower device."""
 
     VERSION = 1
 
